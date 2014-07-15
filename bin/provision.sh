@@ -202,6 +202,11 @@ main() {
   bundler_configure_parallel_jobs
 
   brew_install_or_upgrade_formula 'caskroom/cask/brew-cask'
+  
+  brew_cask_install_or_update_binary 'gitx-rowanj'
+  brew_cask_install_or_update_binary 'virtualbox'
+  brew_cask_install_or_update_binary 'vagrant'
+  brew_cask_install_or_update_binary 'spectacle'
 
   show_conclusion
 }
