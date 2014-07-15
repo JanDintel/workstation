@@ -7,7 +7,7 @@ Provision your OS X workstation. Inspriration from [Laptop by Thoughtbot](https:
 Make sure that a C compiler is installed:
 
 ```console
-which gcc #=> /usr/bin/gcc
+$ which gcc #=> /usr/bin/gcc
 ```
 
 Otherwise install the [Command Line Tools for XCode](https://developer.apple.com/downloads/index.action).
