@@ -3,7 +3,7 @@
 set -e
 # set -x
 
-source 'bin/echo_helper.sh'
+source 'script/echo_helper.sh'
 
 SYSTEM_LIBRARIES_PATH=/usr/bin
 HOMEBREW_LIBRARIES_PATH=/usr/local/bin
