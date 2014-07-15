@@ -51,6 +51,7 @@ The provision script sets up:
 - GitX-dev, a GUI for Git [website](http://rowanj.github.io/gitx/) [github](https://github.com/rowanj/gitx)
 - VirtualBox, a x86 viritualization host [website](https://www.virtualbox.org/)
 - Vagrant, a tool for building viritual machines/environments [website](http://www.vagrantup.com/) [github](https://github.com/mitchellh/vagrant)
+- iTerm 2, a modern age terminal [website](http://www.iterm2.com/)
 - Spectacle, a tool to organize your windows without using a mouse [website](http://spectacleapp.com/) [github](https://github.com/eczarny/spectacle)
 
 

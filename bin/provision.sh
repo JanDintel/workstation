@@ -206,6 +206,7 @@ main() {
   brew_cask_install_or_update_binary 'gitx-rowanj'
   brew_cask_install_or_update_binary 'virtualbox'
   brew_cask_install_or_update_binary 'vagrant'
+  brew_cask_install_or_update_binary 'iterm2'
   brew_cask_install_or_update_binary 'spectacle'
 
   show_conclusion
