@@ -188,6 +188,8 @@ main() {
   install_bundler
   bundler_configure_parallel_jobs
 
+  brew_install_or_upgrade_formula 'caskroom/cask/brew-cask'
+
   show_conclusion
 }
 
