@@ -158,6 +158,19 @@ bundler_configure_parallel_jobs() {
   success_echo "Configured Bundler"
 }
 
+brew_cask_install_or_update_binary() {
+  if brew cask list | grep -Fqx "$1"; then
+    success_echo "$1 already installed"
+    warning_echo "Upgrading binary $1"
+    (brew cask update "$@") || true
+    success_echo "$1 binary upgraded"
+  else
+    warning_echo "Installing binary $1..."
+    brew cask install "$@"
+    success_echo "$1 binary installed"
+  fi
+}
+
 main() {
   show_introduction
 
