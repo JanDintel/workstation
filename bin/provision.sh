@@ -3,28 +3,14 @@
 set -e
 # set -x
 
+source 'bin/echo_helper.sh'
+
 SYSTEM_LIBRARIES_PATH=/usr/bin
 HOMEBREW_LIBRARIES_PATH=/usr/local/bin
 
 DEFAULT_RUBY_VERSION=2.1.2
 EXTRA_RUBY_VERSIONS=(1.9.3-p448 1.9.3-p547 2.0.0)
 RUBIES=($DEFAULT_RUBY_VERSION ${EXTRA_RUBY_VERSIONS[*]})
-
-info_echo() {
-  echo -e "\033[0;36m$1\033[0m"
-}
-
-success_echo() {
-  echo -e "\033[0;32m$1\033[0m"
-}
-
-warning_echo() {
-  echo -e "\033[0;33m$1\033[0m"
-}
-
-error_echo() {
-  echo -e "\033[0;31m$1\033[0m"
-}
 
 show_introduction() {
   info_echo "This script will provision your workstation"
