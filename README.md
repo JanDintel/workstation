@@ -17,7 +17,7 @@ Otherwise install the [Command Line Tools for XCode](https://developer.apple.com
 Run the provision script:
 
 ```console
-$ ./bin/provision.sh
+$ ./script/provision.sh
 ```
 
 ## Provisioning
