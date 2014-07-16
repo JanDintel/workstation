@@ -103,7 +103,7 @@ install_rvm() {
 
 rvm_configure_as_function() {
   warning_echo "Configuring RVM as function..."
-  source /Users/janvanderpas/.rvm/scripts/rvm
+  [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
   success_echo "Configured RVM as function"
 }
 
@@ -134,7 +134,6 @@ rvm_install_rubies() {
 
 rvm_configure_default_ruby() {
   warning_echo "Configuring Ruby version $1 as default..."
-  source ~/.rvm/scripts/rvm
   rvm use "$1" --default
   success_echo "Configured Ruby version $1 as default"
 }
