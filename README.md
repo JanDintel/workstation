@@ -2,6 +2,8 @@
 
 Provision your OS X workstation. Inspriration from [Laptop by Thoughtbot](https://github.com/thoughtbot/laptop).
 
+**Note:** This project is extremly powerfull in combination with the [dotfiles](https://github.com/JanDintel/dotfiles) project for setting up your development environment.
+
 ## Requirements
 
 Make sure that a C compiler is installed:
