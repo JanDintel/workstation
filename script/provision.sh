@@ -36,7 +36,7 @@ install_homebrew() {
     success_echo "Homebrew already installed"
   else
     warning_echo "Installing homebrew..."
-    ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     success_echo "Homebrew installed"
   fi
 }
