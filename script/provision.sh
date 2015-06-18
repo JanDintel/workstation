@@ -202,7 +202,7 @@ main() {
 
   brew_install_or_upgrade_formula 'caskroom/cask/brew-cask'
   
-  brew_cask_install_or_update_binary 'gitx-rowanj'
+  brew_cask_install_or_update_binary 'rowanj-gitx'
   brew_cask_install_or_update_binary 'virtualbox'
   brew_cask_install_or_update_binary 'vagrant'
   brew_cask_install_or_update_binary 'iterm2'
